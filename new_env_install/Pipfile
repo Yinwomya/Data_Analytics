@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"pipenv
+
+[packages]
+jupyter = "*"
+notebook = "*"
+numpy = "*"
+pandas = "*"
+openpyxl = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
