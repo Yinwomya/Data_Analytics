@@ -1,15 +1,17 @@
 [[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"pipenv
+name = "pypi"
 
 [packages]
-jupyter = "*"
-notebook = "*"
 numpy = "*"
 pandas = "*"
-openpyxl = "*"
+jupyter = "*"
+notebook = "*"
+matplotlib = "*"
 pyarrow = "*"
+openpyxl = "*"
+seaborn = "*"
 
 [dev-packages]
 
